@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="1f60e.png">
+   <title>Tudo aprendido</title>
+   <style>
+      body{
+               background-color:rgb(25, 105, 105);
+          }
+      h1, ul, ol, h2, h3, p{
+              color: aliceblue;
+      }
+      mark{
+               background-color: aqua;
+      }
+      fieldset{
+               background-color: rgb(108, 106, 106);
+      }
+   </style>
+</head>
+<body>
+     <h1>Como colocar imagens no site</h1>
+     <ul style="font-size: large;">
+         <li>Com a imagem no sistema</li>
+         <img src="cora-humano.png" alt="um desenho de um coração humano">
+         <li> Com link da internet</li>
+         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43c640f0-3b1f-4438-91bf-e81f2007fe6e/dhar25m-d5f0e0f7-a62a-4396-84d4-98162692b106.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzYzY0MGYwLTNiMWYtNDQzOC05MWJmLWU4MWYyMDA3ZmU2ZVwvZGhhcjI1bS1kNWYwZTBmNy1hNjJhLTQzOTYtODRkNC05ODE2MjY5MmIxMDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VQRy59hJfXLUyPsa5AOgeAbe52NPzETShIxMJkDpZbw" alt="icone antigo do windows ">
+     </ul>
+     <br>
+     <h1>Texto</h1>
+     <h2>Negrito/Destaques</h2>
+     <p>Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (sem semántica).</p>
+     <p>Já nessa, <strong>temos em destaque</strong> usando a tag &lt;strong&gt; (com semántica).</p>
+     <h2>Texto Marcado</h2>
+     <p>Podemos criar <mark style="background-color: aqua;">texto marcado</mark> usando a tag &lt;mark&gt;.</p>
+     <h2>Texto Sobrescrito</h2>
+     <p>Para inserir coisas do tipo x<sup>20</sup> + 3</p>
+     <h2>Texto Subscrito</h2>
+     <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+     <h1>Formulário</h1>
+     <fieldset>
+          <fieldset>
+               <legend>Dados Gerais</legend>
+               <label for="nome">Nome:</label>
+               <input type="text" minlegth="3" id="nome">
+               <label for="data_nascimento">Data de Nascimento:</label>
+               <input type="text" id="data_nascimento">
+               <label for="cpf">CPF:</label>
+               <input type="text" minlegth="11" id="cpf">
+          </fieldset>
+          <fieldset>
+               <legend>Endereço</legend>
+               <label for="tipo_endereco">Tipo:</label>
+               <select id="tipo_endereco">
+                   <option value="">Selecione</option>
+                   <option value="">Rua</option>
+                   <option value="">Estrada</option>
+                   <option value="">Rodovia</option>
+                   <option value="">Outros</option>
+               </select>
+               <label for="numero_endereco">Número</label>
+               <input type="text" id="numero_endereco">
+               <label for="completo_endereco">Complemento:</label>
+               <input type="text" id="complemento_endereco">
+           </fieldset>
+           <fieldset>
+               <legend>Fale Conosco</legend>
+               <label for="msg">Mensagem:</label>
+               <textarea type="text" id="msg"></textarea>
+           </fieldset>
+           <br>
+               <button type="submit">Enviar sua mensagem</button>
+               <button type="reset">Limpar o Formulário</button>
+     </fieldset>
+    <h1>Sitações</h1>
+    <h2>Sitação simples:</h2>
+    <p>Como dizia Olaf de Frozen: <q>Amar é colocar as necessidades de alguém acima das suas</q> </p>
+    <h2>Sitação completa:</h2>
+    <blockquote style="color: aliceblue;">Nunca diga 'adeus', porque dizer 'adeus' significa ir embora e ir embora significa esquecer</blockquote> 
+    <p style="margin-left: 50%;">- Peter Pan</p>
+    <h1>Listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">
+        <li>Laranja</li>
+        <li>Maçã</li>
+        <li>Banana</li>
+    </ul>
+    <h2>Lista de definição</h2>
+    <dl style="color: aliceblue;">
+       <dt>HTML</dt>
+       <dd>Linguagem de marcação para criação de conteudo de um site</dd>
+       <dt>CSS</dt>
+       <dd>Linguagem de marcação para a criação de design de um site</dd>
+       <dt>JavaScript</dt>
+       <dd>Liguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+    <h1>Usando links </h1>
+    <h2>Link externo</h2>
+    <p>Para acessar o meu <a href="http://www.instagram.com/_05_ag_/" target="_black" rel="external">perfil do instagram</a></p>
+    <h2>Link interno</h2>
+    <p>Essa é a 1° página do site. Se quiser acessar a <a href="listas.html">2° página</a></p>
+    <p>Nossa <a href="Fist code.html" rel="next">3° página</a></p>
+    <h2>Link para download</h2>
+    <ul>
+        <li><a href="The Lorax_Storybook.pdf" download="The_Lorax_Storybook.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="">Livro compacto em ZIP</a></li>
+    </ul>
+    <h1>Imagens dinamicas</h1>
+    <p>tente abrir em outros dispositivos. Ou diminua seu navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="M.png" type="image/png">
+        <img src="G.png" alt="imagem flexivel">
+    </picture>
+    <h1>Áudio</h1>
+    <p>Maneira para todos os navegadores</p>
+    <audio src="Moonlight Sonata (by Beethoven) - Beethoven.mp3" controls ></audio>
+    <!--essa é uma maneira que eu não queria colocar no caderno para não fixar na cabeça, mas só deixei aqui para não ficar em branco-->
+    <h2>Vídeo</h2>
+    <h3>Hospedagem local</h3>
+    <video width="560px" poster="" controls>
+        <source src="meuVideo.mkv" type="video/mkv">
+        <source src="meuVideo.webm" type="video/webm">
+        <source src="video.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo</p>
+    </video>
+    <h3>Hospedagem externa</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=BCj0lHbNSi9VRPEC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

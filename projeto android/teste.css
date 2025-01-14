@@ -86,13 +86,13 @@ main  a{
 h2{
    background-image: linear-gradient(to right, #0BDC43, aliceblue);
    padding: 2px;
+  
 }
 
 p{
   text-indent: 0.8cm;
   text-align: justify;
   padding-bottom: 5px;
-  font-size: 1.2em ;
 }
 .video{
    position: relative;

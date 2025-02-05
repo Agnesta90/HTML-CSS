@@ -17,6 +17,11 @@ div{
    display: flex;
    flex-wrap: wrap;
 }
+@media(max-width:500px){ /**Para telefone**/
+   img{
+      width: 300px;
+   }
+}
 h1, h2{
    color: rgb(255, 255, 255) ;
    text-shadow: 0px 5px 17px black;

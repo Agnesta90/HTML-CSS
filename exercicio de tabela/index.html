@@ -8,16 +8,20 @@
       *{
          margin: 0%;
       }
+      body{
+         background-color: #FEF2F1;
+      }
       header{
          background-color:#540408;
          color: aliceblue;
          text-align: center;
-         padding: 20px;
+         padding: 15px;
          font-size: 1.7em;
       }
       th, td{
-         text-align: center;
          border: 1px solid black;
+         padding: 8px;
+         text-align: center;
       }
       table{
          border-collapse: collapse;
@@ -27,8 +31,13 @@
          color: rgb(214, 230, 245);
          font-family:'Courier New', Courier, monospace;
       }
-      #uncio{
+      thead > tr{
          background-color:#540408af ;
+         color: aliceblue;
+      }
+      tfoot{
+      background-color: #840b11af;
+      color: aliceblue;
       }
       section{
          display: flex;
@@ -38,11 +47,15 @@
          margin: 0; 
       }
       main{
-         height: 90vh;
-         background-image: url(https://i.redd.it/twice-the-14th-mini-album-strategy-concept-photo-2-twice-v0-7ptaum3etv0e1.jpg?width=2800&format=pjpg&auto=webp&s=f93042112356a1d1c1647252a715a5b1362508d9);
+         background-image: url(twice.png);
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center center;
+      }
+      @media (max-width:500px){
+         main{
+            background-image: url(https://conteudo.imguol.com.br/c/splash/c6/2024/01/31/o-grupo-twice-1706705638256_v2_1x1.jpg);
+         }
       }
       
    </style>
@@ -52,56 +65,74 @@
    <main>
       <section>
          <table>
-            <tr id="uncio">
-               <th>Name</th>
-               <th>Age</th>
-               <th>Birth</th>
-            </tr>
+            <thead>
+               <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Birth</th>
+                  <th>Solos</th>
+               </tr>
+            </thead>
             <tr>
                <td>Im Nayeon</td>
                <td>29th</td>
                <td>22.09.1995</td>
+               <td>2 Álbuns (14 músicas)</td>
             </tr>
             <tr>
                <td>Yoo Jeongeong</td>
                <td>28th</td>
                <td>01.11.1996</td>
+               <td>-</td>
             </tr>
             <tr>
                <td>Momo Hirai</td>
                <td>28th</td>
                <td>09.11.1996</td>
+               <td>1</td>
             </tr>
             <tr >
                <td>Sana Minatozaki</td>
                <td>28th</td>
                <td>12.29.1996</td>
+               <td>2</td>
             </tr>
             <tr>
                <td>Park Jihyon</td>
                <td>28th</td>
                <td>01.02.1997</td>
+               <td>1 Álbum (7 músicas)</td>
             </tr>
             <tr>
                <td>Mina Myoi</td>
                <td>27th</td>
                <td>24.03.1997</td>
+               <td>1</td>
             </tr>
             <tr>
                <td>Kim Dahyun</td>
                <td>26th</td>
                <td>28.05.1998</td>
+               <td>-</td>
             </tr>
             <tr>
                <td>Son Chayeong</td>
                <td>25th</td>
                <td>23.04.1999</td>
+               <td>-</td>
             </tr>
             <tr>
                <td>Chou Tzuyu</td>
                <td>25th</td>
                <td>06.14.1999</td>
+               <td>1 Álbum (7 músicas)</td>
             </tr>
+            <tfoot>
+               <td>Total de solos</td>
+               <td>-</td>
+               <td>-</td>
+               <td><strong>30 músicas solo</strong></td>
+            </tfoot>
          </section>
    </main>
 </body>

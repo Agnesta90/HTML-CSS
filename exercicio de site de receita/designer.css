@@ -57,10 +57,10 @@ td{
 }
 @media (min-width:540px) {
    body{
-   background-color: #F3E5D8;
+      background-color: hsl(30, 54%, 90%);
    }
    main{
-      background-color: rgb(250, 250, 250);
+      background-color: white;
       max-width: 600px;
       padding: 40px;
       border-radius: 20px;

@@ -11,58 +11,105 @@
    font-family: 'Outfit';
    src: url('fonts/outfit/Outfit-VariableFont_wght.ttf') format('TrueType');
 }
-body{
-   background-color: #F3E5D8;
-}
-article{
-   background-color: rgb(250, 250, 250);
-   max-width: 700px;
-   padding: 30px;
-   border-radius: 20px;
-   margin: auto;
-}
-img{
-   width: 100%;
-   border-radius: 20px;
-}
 h1, h2{
    font-family: 'YoungSeri', 'Courier New', Courier, monospace;
    font-weight: 300
 }
-h2{
-   color: #733A2D;
+p, td, span{
+   color: hsl(30, 10%, 34%);
 }
-section{
-   background-color: #f9e8f3c5;
-   padding: 5px 20px 10px 20px;
-   border-radius: 10px;
-   
+p{
+   margin: 25px 0px ;
+   font-size: 16px;
+   font-weight: 400;
 }
-h4{
-   color: #561e36;
+h2 {
+   color: hsl(14, 45%, 36%);
+   margin: 22px 0px 10px 0px;
 }
-li{
-   padding-bottom: 10px;
+h4, #purple{
+   color: hsl(332, 51%, 32%);
 }
 ul, ol{
-   margin: 0px 0px 0px -16px;
+   margin-left: -18px;
+}
+strong{
+   color: hsl(24, 5%, 18%);
+}
+.brown{
+   color: hsl(14, 45%, 36%);
+   margin-bottom: 20px;
 }
 table {
    border-collapse: collapse; 
-}
-tr{
-   border-bottom: 1px solid rgba(0, 0, 0, 0.337);
-   padding-right: 10px;
+   width: 100%; 
 }
 td{
-   padding: 25px 0px 25px 40px;
-   width: 50vh;
+   padding: 10px 0px 10px 40px;
+   border-bottom: 1px solid #ddd; 
+}
+#this> td {
+   border: none;
 }
 .num{
-   color: #733A2D;
+   color: hsl(14, 45%, 36%);
+   font-weight: 600;
 }
-footer{
-   margin-top: 20px;
-   text-align: center;
-   font-size: 0.3cm;
+@media (min-width:540px) {
+   body{
+   background-color: #F3E5D8;
+   }
+   main{
+      background-color: rgb(250, 250, 250);
+      max-width: 600px;
+      padding: 40px;
+      border-radius: 20px;
+      margin: 5% auto;
+   }
+   img{
+      width: 100%;
+      border-radius: 20px;
+   }
+   section{
+      background-color: hsl(330, 100%, 98%);
+      padding: 1px 25px ;
+      border-radius: 10px;
+   }
+   h4{
+      margin-bottom: 0%;
+   }
+   section ul{
+      margin-top: 5px;
+   }
+   li{
+      padding: 10px 20px;
+   }
+}
+@media (max-width:540px) {
+   *{
+      margin: 0%;
+   }
+   div{
+      padding: 30px;
+   }
+   img{
+      width: 100%;
+   }
+   h1{
+      line-height: 1em;
+   }
+   section{
+      background-color: hsl(330, 100%, 98%);
+      padding: 20px;
+      border-radius: 10px;
+   }
+   h4{
+      font-size: 19px;
+   }
+   h4, #purple{
+      color: hsl(332, 51%, 32%);
+   }
+   li{
+      padding: 10px 20px;
+   }
 }

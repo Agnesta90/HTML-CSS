@@ -5,7 +5,7 @@
 
 <a href="https://agnesta90.github.io/HTML-CSS/exercicio%20de%20midia/">Exercicio de midia</a>
 
-<a href="https://agnesta90.github.io/HTML-CSS/exercicio%20de%20receita/">Exercicio de site de receita</a>
+<a href="(https://agnesta90.github.io/HTML-CSS/exercicio%20de%20site%20de%20receita">Exercicio de site de receita</a>
 
 <a href="https://agnesta90.github.io/HTML-CSS/exercicio%20de%20social%20link/">Exercicio de site de Social link</a>
 

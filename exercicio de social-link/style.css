@@ -18,10 +18,10 @@ body{
    height: 97vh;
 }
 main{
-   width: 280px;
+   width: 300px;
    background-color: hsl(0, 0%, 12%);
    border-radius: 10px;
-   padding: 20px 20px 10px 20px;
+   padding: 30px 30px 20px 30px;
 }
 img{
    border-radius: 100px;
@@ -32,7 +32,7 @@ h2{
 }
 p{
    font-size: 14px;
-   margin: 5px 0px 20px 0px;
+   margin: 5px 0px 27px 0px;
    
 }
 p:first-of-type{ /*serve para 1° frase*/
